@@ -47,9 +47,9 @@ function GetStarted() {
         </div>
       </div>
       {/* Footer */}
-      <div className="z-20 w-full p-16">
+      <div className="w-full p-16">
         <div className="rounded-4xl bg-secondary-foreground p-8 text-background md:px-24 lg:p-16">
-          <div className="flex flex-col justify-center gap-8 md:justify-evenly md:gap-16 lg:flex-row lg:gap-24 xl:gap-32">
+          <div className="relative z-20 flex flex-col justify-center gap-8 md:justify-evenly md:gap-16 lg:flex-row lg:gap-24 xl:gap-32">
             <div className="flex flex-1 justify-between gap-8">
               <h3 className="font-bowlby text-lg font-bold uppercase md:text-3xl">
                 Burger Heaven
@@ -126,16 +126,20 @@ function GetStarted() {
             </div>
           </div>
           <div className="mt-8 flex w-full justify-between lg:px-8">
-            <p className="text-sm font-medium lg:font-extrabold">Copyright Burger Heaven</p>
-            <p className="text-sm font-medium lg:font-extrabold">Privacy Policy</p>
+            <p className="text-sm font-medium lg:font-extrabold">
+              Copyright Burger Heaven
+            </p>
+            <p className="text-sm font-medium lg:font-extrabold">
+              Privacy Policy
+            </p>
           </div>
         </div>
-        <img
-          src={linesSvg}
-          alt="lines-svg"
-          className="absolute top-1/3 left-[-10px] z-10 w-full object-cover sm:top-3/7"
-        />
       </div>
+      <img
+        src={linesSvg}
+        alt="lines-svg"
+        className="pointer-events-none absolute top-1/3 left-[-10px] z-10 w-full object-cover sm:top-2/5"
+      />
     </div>
   )
 }
