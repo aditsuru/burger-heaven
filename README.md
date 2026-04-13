@@ -1,21 +1,16 @@
-# React + TypeScript + Vite + shadcn/ui
+# Burger Heaven
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+![Banner](./assets/banner.png)
 
-## Adding components
+A responsive restaurant landing page built with React, Tailwind CSS, and Framer Motion.
 
-To add components to your app, run the following command:
+### Stack
 
-```bash
-npx shadcn@latest add button
-```
+- React + Vite + TypeScript
+- Tailwind CSS
+- Framer Motion
+- Shadcn/ui
 
-This will place the ui components in the `src/components` directory.
+### Live
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+[burger-heaven.aditsuru.com](https://burger-heaven.aditsuru.com)
