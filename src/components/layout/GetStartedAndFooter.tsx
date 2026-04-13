@@ -126,8 +126,8 @@ function GetStarted() {
             </div>
           </div>
           <div className="mt-8 flex w-full justify-between lg:px-8">
-            <p className="text-sm lg:font-extrabold">Copyright Burger Heaven</p>
-            <p className="text-sm lg:font-extrabold">Privacy Policy</p>
+            <p className="text-sm font-medium lg:font-extrabold">Copyright Burger Heaven</p>
+            <p className="text-sm font-medium lg:font-extrabold">Privacy Policy</p>
           </div>
         </div>
         <img
