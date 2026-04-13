@@ -24,7 +24,7 @@ function Menu() {
         <AspectRatio
           key={item.alt}
           ratio={650 / 753}
-          className="relative col-span-1 w-xl rounded-4xl"
+          className="relative col-span-1 w-full max-w-xl rounded-4xl"
         >
           <img src={item.src} alt={item.alt} className="h-full object-cover" />
           <div className="absolute bottom-0 left-0 flex w-full flex-col items-start justify-center rounded-t-4xl bg-background p-4 font-bowlby text-foreground lg:bottom-10 lg:left-10 lg:w-[70%] lg:rounded-4xl lg:p-8">
